@@ -19,7 +19,7 @@ const client = new Client({
 module.exports = client;
 
 //Bot prefix
-const prefix = "aki."
+const prefix = "aki!"
 //
 
 //Status
