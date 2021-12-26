@@ -24,10 +24,10 @@ const prefix = "aki."
 
 //Status
 client.on("ready", () => {
-  let statusList = [`${prefix}akinator`, `Discord Tricks`];
+  let statusList = [`${prefix}akinator`, `rebootdiscord.blogspot.com`];
     setInterval(function() {
   		let status = statusList[Math.floor(Math.random()*statusList.length)];
-  		client.user.setActivity(status, {type: "LISTENING"});
+  		client.user.setActivity(status, {type: "PLAYING"});
   	}, 10000)
 
     console.log(`${client.user.tag} has been successfully deployed!! 🚀`)
